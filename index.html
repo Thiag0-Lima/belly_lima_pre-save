@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O Raso Também Pode Afogar | Belly Lima</title>
+  <meta name="description" content="Pré-lançamento de O Raso Também Pode Afogar, de Belly Lima. Faça seu pré-cadastro.">
+
+  <!-- FONTES: estas são sugestões parecidas com as das referências.
+       Para usar as suas, apague este bloco, use @font-face no style.css
+       e troque as variáveis --fonte-* no topo do style.css. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="pular-conteudo" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="nav" id="topo">
+    <a class="nav__logo" href="#topo">Belly Lima</a>
+
+    <!-- Botão hambúrguer (aparece só no celular) -->
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__menu" id="menu" aria-label="Principal">
+      <a href="#livro">O livro</a>
+      <a href="#colecao">A coleção</a>
+      <a href="#brindes">Brindes</a>
+      <a href="#autora">Sobre a autora</a>
+      <a class="btn btn--sm" href="#pre-cadastro">Quero apoiar</a>
+      <div class="nav__controles" role="group" aria-label="Preferências de exibição">
+        <button class="movimento-toggle" type="button" aria-pressed="true" aria-label="Desativar movimentos">
+          <span class="movimento-toggle__texto">Movimentos</span>
+          <span class="movimento-toggle__trilho" aria-hidden="true"><span></span></span>
+        </button>
+        <button class="tema-toggle" type="button" aria-pressed="false" aria-label="Ativar modo escuro">
+          <span class="tema-toggle__texto">Tema</span>
+          <span class="tema-toggle__trilho" aria-hidden="true"><span></span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero__texto">
+        <h1 class="hero__titulo">
+          <span class="hero__linha">O Raso</span>
+          <!-- Fonte "máquina de escrever" sobreposta, como na referência -->
+          <span class="hero__meio">também pode</span>
+          <span class="hero__linha">Afogar</span>
+        </h1>
+        <p class="hero__sub">A todos aqueles que continuaram mesmo quando tudo dentro de si parecia desmoronar</p>
+        <a class="btn" href="#pre-cadastro">Garanta seu exemplar</a>
+      </div>
+
+      <!-- IMAGEM: mockup do livro (PNG transparente) -->
+      <figure class="hero__livro" data-tilt>
+        <img src="assets/img/livro-hero.png" alt="Livro O Raso Também Pode Afogar, aberto, mostrando capa e lombada">
+      </figure>
+    </section>
+
+    <!-- Divisor em onda (tema água). Troque a cor via --azul no CSS -->
+    <svg class="onda" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 30 C 240 70, 480 -10, 720 30 S 1200 70, 1440 30 L1440 60 L0 60 Z"/>
+    </svg>
+
+    <!-- ===================== SESSÃO 1: SOBRE O LIVRO ===================== -->
+    <section class="livro bloco-azul" id="livro">
+      <div class="container">
+        <h2 class="titulo-claro" data-reveal>Sobre o livro</h2>
+        <div class="livro__grade">
+          <div class="livro__texto" data-reveal>
+            <p><em class="destaque">O Raso Também Pode Afogar</em> é um convite para sentir o que nem sempre cabe em palavras. Entre versos e sentimentos, Belly Lima explora as inseguranças, os silêncios e a falsa sensação de segurança que encontramos na superfície.</p>
+            <p>Uma reflexão sobre aquilo que nos impede de mergulhar em nossas próprias experiências, revelando que nem sempre permanecer no raso significa estar a salvo.</p>
+          </div>
+          <blockquote class="livro__poema" data-reveal>
+            <p>Frio... frio... vazio?<br>Não se sabe dizer,<br>não é época de inverno ou outono<br>Sequer é época de primavera ou verão</p>
+            <p>É estranho,<br>as palavras não conseguem explicar<br>E meu coração não consegue decifrar</p>
+            <cite>— O Raso também pode afogar</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SESSÃO 2: A COLEÇÃO ===================== -->
+    <section class="colecao" id="colecao">
+      <div class="container colecao__grade">
+        <figure class="colecao__img" data-reveal>
+          <!-- IMAGEM: os três livros da trilogia -->
+          <img src="assets/img/colecao2.png" alt="Trilogia: O Raso Também Pode Afogar, Nem Tudo Sobrevive ao Fogo e Que o Vento Leve, Tudo Leve">
+        </figure>
+        <div class="colecao__texto" data-reveal>
+          <h2 class="titulo-display">Processos<br>em versos</h2>
+          <p class="legenda-maquina">sobre sentir, transformar e continuar</p>
+          <p>Uma trilogia de poesia que percorre diferentes fases da experiência humana. Entre a água, o fogo e o vento, cada volume representa um momento dessa trajetória, atravessada por fragilidades, mudanças e recomeços.</p>
+          <p><strong>A jornada começa com O Raso Também Pode Afogar, o primeiro volume da coleção, agora em pré-lançamento.</strong></p>
+          <p class="faixa-aviso">Os próximos capítulos dessa história ainda estão por vir...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SESSÃO 3: KIT / BRINDES ===================== -->
+    <section class="kit" id="brindes">
+      <div class="container">
+        <h2 class="titulo-maquina" data-reveal>Kit pré-lançamento</h2>
+        <div class="kit__grade">
+          <div class="kit__caixa" data-reveal>
+            <p>Garanta seu exemplar do primeiro volume e receba brindes exclusivos, além do livro autografado.</p>
+            <ul class="kit__itens">
+              <li>
+                <!-- Ícones em SVG: herdam a cor do texto -->
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h7a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H3zM21 5h-7a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h7z"/></svg>
+                Livro físico autografado
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+                Marcador de páginas exclusivo
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 10h8M8 14h5"/></svg>
+                Cartão ilustrado com poema
+              </li>
+            </ul>
+          </div>
+          <figure class="kit__img" data-reveal>
+            <!-- IMAGEM: livro + marcador + cartão (PNG transparente) -->
+            <img src="assets/img/kit.png" alt="Kit com livro, marcador de páginas e cartão ilustrado com poema">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SESSÃO 4: SOBRE A AUTORA (+ FAIXA INTERATIVA) ===================== -->
+    <section class="autora" id="autora">
+      <div class="container autora__grade">
+        <figure class="polaroid" data-reveal>
+          <!-- IMAGEM: foto da autora -->
+          <img src="assets/img/autora.jpg" alt="Foto de Belly Lima">
+        </figure>
+        <div class="autora__texto" data-reveal>
+          <h2 class="titulo-claro-escuro">Sobre a autora</h2>
+          <p class="autora__destaque">Todos os poemas, que do meu eu mais sincero escrevi, nasceram de momentos em que apenas os pensamentos ou aquilo que de minha boca conseguia proferir não eram suficientes para expressar a intensidade de tudo o que existia dentro de mim.</p>
+          <!-- BOTÃO que revela a faixa/carta -->
+          <button class="btn btn--carta" type="button" data-abrir-faixa>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 7 9-7"/></svg>
+            Abrir mensagem da autora
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAIXA / CARTA: fica escondida até o clique no botão acima -->
+    <div class="faixa-overlay" id="faixa" role="dialog" aria-modal="true" aria-labelledby="faixa-titulo" hidden>
+      <div class="faixa-overlay__fundo" data-fechar-faixa></div>
+      <div class="faixa">
+        <button class="faixa__fechar" type="button" aria-label="Fechar mensagem" data-fechar-faixa>&times;</button>
+        <p class="faixa__titulo" id="faixa-titulo">Uma mensagem de Belly</p>
+        <p class="faixa__texto">A arte sempre fez — e sempre fará — parte de quem sou, seja por meio dos versos, do digital ou das mãos sujas de tinta. Ela sempre será minha voz e, talvez, minhas palavras possam fazer sentido para aqueles que as leem.</p>
+      </div>
+    </div>
+
+    <!-- ===================== SESSÃO 5: AJUDE ESSA HISTÓRIA ===================== -->
+    <section class="apoio bloco-azul">
+      <div class="container apoio__conteudo" data-reveal>
+        <h2 class="titulo-maquina titulo-maquina--claro">Ajude essa história a ganhar vida</h2>
+        <p>O Raso Também Pode Afogar está dando seus primeiros passos rumo à publicação. Como parte de um projeto acadêmico, esta etapa busca conhecer os futuros leitores e descobrir o interesse por sua primeira edição física. Ao realizar seu pré-cadastro, você entra para a lista de interessados e poderá receber, em primeira mão, novidades sobre o lançamento e acesso antecipado aos kits especiais com brindes exclusivos.</p>
+        <p class="apoio__nota">O cadastro é gratuito e não representa um compromisso de compra.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SESSÃO 6: PRÉ-CADASTRO ===================== -->
+    <section class="cadastro" id="pre-cadastro">
+      <div class="container cadastro__grade">
+        <div class="cadastro__texto" data-reveal>
+          <h2 class="titulo-espacado">Faça seu<br>pré-cadastro</h2>
+          <p>Seja uma das primeiras pessoas a receber novidades sobre o lançamento, condições especiais e a abertura da pré-venda.</p>
+          <ul class="cadastro__vantagens">
+            <li>Receba novidades em primeira mão</li>
+            <li>Condições especiais de lançamento</li>
+            <li>Brindes exclusivos</li>
+          </ul>
+        </div>
+
+        <div class="cadastro__convite" data-reveal>
+          <p class="cadastro__incentivo">Sua próxima história favorita começa com um simples “sim”. Reserve um instante para fazer seu pré-cadastro e venha acompanhar essa jornada desde o começo.</p>
+          <a class="btn cadastro__botao" href="https://forms.gle/hQd6ik5qvmgH4CYQA" target="_blank" rel="noopener noreferrer">
+            Quero fazer meu pré-cadastro
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14m-6-6 6 6-6 6"/>
+            </svg>
+          </a>
+          <p class="cadastro__nota">É rapidinho, gratuito e sem compromisso de compra.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="rodape">
+    <div class="rodape__marca">
+      <strong>Belly Lima</strong>
+      <em>Entre o fogo, a água e o vento.</em>
+    </div>
+    <nav class="rodape__menu" aria-label="Rodapé">
+      <a href="#livro">O livro</a>
+      <a href="#colecao">A coleção</a>
+      <a href="#autora">Sobre a autora</a>
+      <a href="#pre-cadastro">Participe</a>
+    </nav>
+    <div class="rodape__social">
+      <a href="https://www.instagram.com/art.bellylds?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
